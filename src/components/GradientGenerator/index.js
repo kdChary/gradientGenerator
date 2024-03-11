@@ -73,9 +73,7 @@ class GradientGenerator extends Component {
 
           <ColorsSection>
             <ColorCard>
-              <Text as="label" htmlFor="colorOne">
-                {colorOne}
-              </Text>
+              <Text>{colorOne}</Text>
               <ColorInput
                 type="color"
                 id="colorOne"
@@ -85,9 +83,7 @@ class GradientGenerator extends Component {
             </ColorCard>
 
             <ColorCard>
-              <Text as="label" htmlFor="colorTwo">
-                {colorTwo}
-              </Text>
+              <Text>{colorTwo}</Text>
               <ColorInput
                 type="color"
                 id="colorTwo"

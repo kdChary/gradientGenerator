@@ -34,7 +34,7 @@ export const GradientsDirectionsList = styled.ul`
 export const Text = styled.p`
   font-weight: 500;
   font-size: 13px;
-  color: #ededed;
+  color: #ffffff79;
 `
 
 export const ColorsSection = styled.div`
@@ -46,12 +46,16 @@ export const ColorsSection = styled.div`
 export const ColorInput = styled.input`
   width: 54px;
   height: 31px;
+  margin-top: 0;
   border: none;
   background-color: transparent;
+  outline: none;
+  cursor: pointer;
 `
 export const ColorCard = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 `
 export const GenerateBtn = styled.button`
@@ -64,4 +68,6 @@ export const GenerateBtn = styled.button`
   color: #1e293b;
   font-size: 13px;
   font-weight: 600;
+  outline: none;
+  cursor: pointer;
 `

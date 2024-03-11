@@ -13,7 +13,8 @@ export const DirectionButton = styled.button`
   font-family: 'Roboto';
   font-weight: 600;
   color: #334155;
-  border: solid 1px #ededed50;
+  border: solid 1px #ededed;
   border-radius: 4px;
-  background-color: ${props => (props.active ? '#ededed' : '#ededed50')};
+  opacity: ${props => (props.active ? 1 : 0.5)};
+  background-color: #ededed;
 `
